@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/icons/font/bootstrap-icons.min.css">
+	<!-- Slick CSS -->
+	<link rel="stylesheet" href="assets/slick/slick.css">
+	<link rel="stylesheet" href="assets/slick/slick-theme.css">
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<!-- My Style -->
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+	<!-- Navbar Start -->
+	<nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
+		<div class="container-fluid">
+			<a class="navbar-brand text-uppercase fw-bold" href="index.html">MyShop</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Categories
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="ring.html">Ring</a></li>
+							<li><a class="dropdown-item" href="Crown.html">Crown</a></li>
+							<li><a class="dropdown-item" href="Bangles.html">Bangles</a></li>
+							<li><a class="dropdown-item" href="Nacklace.html">Nacklace</a></li>
+							<li><a class="dropdown-item" href="Light Necklace.html">Light Necklace</a></li>
+							<li><a class="dropdown-item" href="Wedding Ring.html">Wedding Ring</a></li>
+							
+							
+							
+							
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+
+				<form class="d-flex" role="search">
+					<input class="form-control rounded-0 rounded-start-pill" type="search" placeholder="Search here..." aria-label="Search">
+					<button class="btn btn-success rounded-0 rounded-end-pill" type="submit"><i class="bi bi-search"></i></button>
+				</form>
+
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<button type="button" class="nav-link position-relative mx-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+							<i class="bi bi-bag"></i>
+							<span class="position-absolute top-10 start-100 translate-middle badge rounded-pill bg-danger">
+								3
+								<span class="visually-hidden">unread messages</span>
+							</span>
+						</button>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link rounded-pill" href="signIn.html" id="btn-signin"><i class="bi bi-box-arrow-in-right"></i> SignIn</a>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</nav>
+	<!-- Navbar End -->
+
+
+
+	<div class="container-fluid">
+		<div class="row">
+			<!-- Sidebar Start -->
+			<div class="col-lg-3 col-md-4 col-sm-12">
+				<div class="sidebar mt-5">
+					<form class="d-flex" role="search">
+						<input class="form-control rounded-0 rounded-start-pill" type="search" placeholder="Search here..." aria-label="Search">
+						<button class="btn btn-success rounded-0 rounded-end-pill" type="submit"><i class="bi bi-search"></i></button>
+					</form>
+
+					<div class="mt-5 d-flex justify-content-between align-items-center">
+						<h5>Filter</h5>
+						<button type="reset" class="btn btn-success">Reset</button>
+					</div>
+
+
+					<div class="mt-4">
+						<h6>Categories</h6>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="Ring">
+							<label class="form-check-label" for="Ring">
+								Ring
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="Crown">
+							<label class="form-check-label" for="Crown">
+								Crown
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="Bangles">
+							<label class="form-check-label" for="Bangles">
+								Bangles
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="Necklace">
+							<label class="form-check-label" for="Necklace">
+								Necklace
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="Light Necklace">
+							<label class="form-check-label" for="Light Necklace">
+								Light Necklace
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="Wedding Ring">
+							<label class="form-check-label" for="Wedding Ring">
+								Wedding Ring
+							</label>
+						</div>
+					</div>
+
+					<div class="mt-4">
+					<h6>Ring</h6>
+
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="">
+							<label class="form-check-label" >
+								50000Tk - 75000Tk
+							</label>
+						</div>
+
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label" >
+								75000Tk - 100000Tk
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="">
+							<label class="form-check-label" >
+								100000Tk - 125000Tk
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="">
+							<label class="form-check-label" >
+								125000Tk - 150000Tk
+							</label>
+						</div>
+					</div>
+
+					<div class="mt-4">
+						<h6>Bangles</h6>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="">
+							<label class="form-check-label" >
+								100000Tk - 200000Tk
+							</label>
+						</div>
+
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label" >
+							200000Tk - 300000Tk
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="">
+							<label class="form-check-label" >
+								300000Tk - 400000Tk
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="">
+							<label class="form-check-label" >
+								400000Tk - 500000Tk
+							</label>
+						</div>
+					</div>
+
+					<div class="mt-4">
+						<h6>Crown</h6>
+
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="">
+							<label class="form-check-label" >
+								100000Tk - 12000Tk
+							</label>
+						</div>
+
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label" >
+								125000Tk - 150000Tk
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="">
+							<label class="form-check-label" >
+								150000Tk - 175000Tk
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="">
+							<label class="form-check-label" >
+								175000Tk - 200000Tk
+							</label>
+						</div>
+					</div>
+
+					<div class="mt-4">
+						<h6>Nacklace</h6>
+
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="">
+							<label class="form-check-label" >
+								100000Tk - 200000Tk
+							</label>
+						</div>
+
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label" >
+							200000Tk - 300000Tk
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="">
+							<label class="form-check-label" >
+								300000Tk - 400000Tk
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="">
+							<label class="form-check-label" >
+								400000Tk - 500000Tk
+							</label>
+						</div>
+					</div>
+
+					<div class="mt-4">
+					<h6>Light Necklace</h6>
+
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="">
+							<label class="form-check-label" >
+								100000Tk - 12000Tk
+							</label>
+						</div>
+
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label" >
+								125000Tk - 150000Tk
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="">
+							<label class="form-check-label" >
+								150000Tk - 175000Tk
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="">
+							<label class="form-check-label" >
+								175000Tk - 200000Tk
+							</label>
+						</div>
+					</div>
+
+					
+
+
+				</div>
+			</div>
+			<!-- Sidebar End -->
+
+			
+			<div class="col-lg-9 col-md-8 col-sm-12">
+				<!-- Slider Start -->
+				<div class="slider-area mt-5">
+					<div id="carouselExampleCaptions" class="carousel slide">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="assets/images/slider/slider-1.jpg" class="d-block w-100" alt="...">
+								<div class="carousel-caption d-none d-md-block">
+									<h5>Luxury Jewellery</h5>
+									<p>Elevate Your Style: Adorn Yourself in Timeless Elegance</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img src="assets/images/slider/slider-2.jpg" class="d-block w-100" alt="...">
+								<div class="carousel-caption d-none d-md-block">
+									<h5>Luxury Jewellery</h5>
+									<p>Elevate Your Style: Adorn Yourself in Timeless Elegance</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img src="assets/images/slider/slider-3.jpg" class="d-block w-100" alt="...">
+								<div class="carousel-caption d-none d-md-block">
+									<h5>Luxury Jewellery</h5>
+									<p>Elevate Your Style: Adorn Yourself in Timeless Elegance</p>
+								</div>
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+				<!-- Slider End -->
+
+				<!-- Main Content Start -->
+				<div class="main-content">
+					<div class="row g-2 mt-5">
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<div class="text-start position-absolute mx-1">
+									<span class="badge text-bg-danger rounded-0">-13%</span>
+								</div>
+								<img src="assets/images/jewallary/dm-3.png"  class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Necklace</a>
+									</h5>
+									<div class="card-text">
+										<p> 350000 Tk<del> (370000 Tk)</del></p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/jewallary/dm-2.png"  class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Light Necklace</a>
+									</h5>
+									<div class="card-text">
+										<p>200000Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/jewallary/dm-5.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Crown</a>
+									</h5>
+									<div class="card-text">
+										<p>300000Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								
+								<img src="assets/images/jewallary/dm-9.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Wedding Ring</a>
+									</h5>
+									<div class="card-text">
+										<p>120000Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								
+								<img src="assets/images/jewallary/dm-1.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Bracelet</a>
+									</h5>
+									<div class="card-text">
+										<p>150000Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<div class="text-start position-absolute mx-1">
+									<span class="badge text-bg-danger rounded-0">-10%</span>
+								</div>
+								<img src="assets/images/jewallary/dm-4.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Light Necklace</a>
+									</h5>
+									<div class="card-text">
+										<p>185000Tk<del>200000Tk</del></p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/jewallary/dm-6.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Light Necklace</a>
+									</h5>
+									<div class="card-text">
+										<p>200000Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/jewallary/dm-7.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Earring</a>
+									</h5>
+									<div class="card-text">
+										<p>100000Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/jewallary/dm-8.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Light Necklace</a>
+									</h5>
+									<div class="card-text">
+										<p>180000Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/jewallary/dm-10.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Earring</a>
+									</h5>
+									<div class="card-text">
+										<p>150000Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/jewallary/dm-11.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Ring </a>
+									</h5>
+									<div class="card-text">
+										<p>80000Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/jewallary/dm-15.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Ring </a>
+									</h5>
+									<div class="card-text">
+										<p>70000Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!--Single-->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/jewallary/dm-12.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Bangles</a>
+									</h5>
+									<div class="card-text">
+										<p>25000Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart"></i> Add to cart</a>
+								</div>
+							</div>
+						</div>
+						<!--Single-->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<div class="text-start position-absolute mx-1">
+									<span class="badge text-bg-danger rounded-0">-13%</span>
+								</div>
+								<img src="assets/images/jewallary/dm-13.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Ring</a>
+									</h5>
+									<div class="card-text">
+										<p> 35000 Tk<del> (40000 Tk)</del></p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart"></i> Add to cart</a>
+								</div>
+							</div>	
+
+
+						</div>
+						<!--Single-->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/jewallary/dm-15.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Ring</a>
+									</h5>
+									<div class="card-text">
+										<p>30000Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart"></i> Add to cart</a>
+								</div>
+							</div>	
+
+
+						</div>
+						<!--Single-->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/bangles/b1.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Bangles</a>
+									</h5>
+									<div class="card-text">
+										<p>25000Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart"></i> Add to cart</a>
+								</div>
+							</div>	
+
+
+						</div>
+
+
+
+						<!-- Pagination Start -->
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="pagination-area d-flex justify-content-center mt-4">
+								<nav aria-label="Page navigation example">
+									<ul class="pagination">
+										<li class="page-item">
+											<a class="page-link" href="#">Previous</a>
+										</li>
+										<li class="page-item">
+											<a class="page-link active" href="#">1</a>
+										</li>
+										<li class="page-item">
+											<a class="page-link" href="#">2</a>
+										</li>
+										<li class="page-item">
+											<a class="page-link" href="#">3</a>
+										</li>
+										<li class="page-item">
+											<a class="page-link" href="#">Next</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<!-- Pagination End -->
+
+
+						<!-- Popular Product Start-->
+						<div class="popular-product mt-5 mb-5">
+							<h2 class="fw-bold">Popular Product</h2>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptatibus eaque, esse ex sint et! Nihil vel sint sunt ullam, nemo similique maxime. Ratione libero cum in ipsum illo soluta?</span>
+							<div class="row mt-4">
+								<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<div class="text-start position-absolute mx-1">
+									<span class="badge text-bg-danger rounded-0">-13%</span>
+								</div>
+								<img src="assets/images/jewallary/dm-3.png"  class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Necklace</a>
+									</h5>
+									<div class="card-text">
+										<p> 350000 Tk<del> (370000 Tk)</del></p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/jewallary/dm-2.png"  class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Light Necklace</a>
+									</h5>
+									<div class="card-text">
+										<p>200000Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/jewallary/dm-5.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Crown</a>
+									</h5>
+									<div class="card-text">
+										<p>300000Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								
+								<img src="assets/images/jewallary/dm-9.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Wedding Ring</a>
+									</h5>
+									<div class="card-text">
+										<p>120000Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								
+								<img src="assets/images/jewallary/dm-1.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Bracelet</a>
+									</h5>
+									<div class="card-text">
+										<p>150000Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<div class="text-start position-absolute mx-1">
+									<span class="badge text-bg-danger rounded-0">-10%</span>
+								</div>
+								<img src="assets/images/jewallary/dm-4.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Light Necklace</a>
+									</h5>
+									<div class="card-text">
+										<p>185000Tk<del>200000Tk</del></p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/jewallary/dm-6.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Light Necklace</a>
+									</h5>
+									<div class="card-text">
+										<p>200000Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/jewallary/dm-7.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Earring</a>
+									</h5>
+									<div class="card-text">
+										<p>100000Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-success"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+							</div>
+						</div>
+						<!-- Popular Product End-->
+
+
+						<!-- Testimonial Start-->
+						<div class="testimonial-area mt-5 mb-5">
+							<h2 class="fw-bold">Testimonial</h2>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptatibus eaque, esse ex sint et! Nihil vel sint sunt ullam, nemo similique maxime. Ratione libero cum in ipsum illo soluta?</span>
+							<div class="row g-3 mt-5  responsive">
+								<!-- Single -->
+								<div class="col-lg-6 col-md-6 col-sm-12">
+									<div class="t-box">
+										<div class="d-flex align-items-center gap-3">
+											<div class="photo">
+												<img src="assets/images/testimonial/lumia1.jpg" alt="">
+											</div>
+											<div class="d-flex justify-content-between flex-fill">
+												<div>
+													<h4>John Doe</h4>
+													<span>Designation</span>
+													<div class="rating mb-2">
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-half"></i></span>
+													</div>
+												</div>
+												<div>
+													<i class="bi bi-chat-right-quote-fill"></i>
+												</div>
+											</div>
+										</div>
+										<hr>
+										<p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Quia neque repellat hic, vitae eveniet omnis ab, beatae officia. Aut sit consectetur ipsam asperiores officiis a optio quasi hic sint. In, ut expedita similique facilis, aliquam quisquam quibusdam a. Debitis, libero.</p>
+									</div>
+								</div>
+								<!-- Single -->
+								<div class="col-lg-6 col-md-6 col-sm-12">
+									<div class="t-box">
+										<div class="d-flex align-items-center gap-3">
+											<div class="photo">
+												<img src="assets/images/testimonial/pic-1.jpg" alt="">
+											</div>
+											<div class="d-flex justify-content-between flex-fill">
+												<div>
+													<h4>John Doe</h4>
+													<span>Designation</span>
+													<div class="rating mb-2">
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-half"></i></span>
+													</div>
+												</div>
+												<div>
+													<i class="bi bi-chat-right-quote-fill"></i>
+												</div>
+											</div>
+										</div>
+										<hr>
+										<p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Quia neque repellat hic, vitae eveniet omnis ab, beatae officia. Aut sit consectetur ipsam asperiores officiis a optio quasi hic sint. In, ut expedita similique facilis, aliquam quisquam quibusdam a. Debitis, libero.</p>
+									</div>
+								</div>
+								<!-- Single -->
+								<div class="col-lg-6 col-md-6 col-sm-12">
+									<div class="t-box">
+										<div class="d-flex align-items-center gap-3">
+											<div class="photo">
+												<img src="assets/images/testimonial/lumia1.jpg" alt="">
+											</div>
+											<div class="d-flex justify-content-between flex-fill">
+												<div>
+													<h4>John Doe</h4>
+													<span>Designation</span>
+													<div class="rating mb-2">
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-half"></i></span>
+													</div>
+												</div>
+												<div>
+													<i class="bi bi-chat-right-quote-fill"></i>
+												</div>
+											</div>
+										</div>
+										<hr>
+										<p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Quia neque repellat hic, vitae eveniet omnis ab, beatae officia. Aut sit consectetur ipsam asperiores officiis a optio quasi hic sint. In, ut expedita similique facilis, aliquam quisquam quibusdam a. Debitis, libero.</p>
+									</div>
+								</div>
+								<!-- Single -->
+								<div class="col-lg-6 col-md-6 col-sm-12">
+									<div class="t-box">
+										<div class="d-flex align-items-center gap-3">
+											<div class="photo">
+												<img src="assets/images/testimonial/pic-1.jpg" alt="">
+											</div>
+											<div class="d-flex justify-content-between flex-fill">
+												<div>
+													<h4>John Doe</h4>
+													<span>Designation</span>
+													<div class="rating mb-2">
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-fill"></i></span>
+														<span><i class="bi bi-star-half"></i></span>
+													</div>
+												</div>
+												<div>
+													<i class="bi bi-chat-right-quote-fill"></i>
+												</div>
+											</div>
+										</div>
+										<hr>
+										<p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Quia neque repellat hic, vitae eveniet omnis ab, beatae officia. Aut sit consectetur ipsam asperiores officiis a optio quasi hic sint. In, ut expedita similique facilis, aliquam quisquam quibusdam a. Debitis, libero.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Testimonial End-->
+					</div>
+				</div>
+			</div>
+			<!-- Main Content End -->
+		</div>
+	</div>
+
+
+	<!-- Shopping Cart Offcanvas Start -->
+
+	<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Shopping cart</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <hr>
+  <div class="offcanvas-body">
+   <div class="d-flex gap-3 mb-3">
+   	<div class="product-photo">
+   		<img src="assets/images/jewallary/dm-2.png" alt="">
+   	</div>
+   	<div class="d-flex justify-content-between flex-fill">
+   		<div>
+   			<a href="#" class="d-block">Light Necklace</a>
+   			<span class="d-block">200000 Tk</span>
+   		</div>
+   		<div>
+   			<button type="button"><i class="bi bi-x-circle-fill"></i></button>
+   		</div>
+   	</div>
+   </div>
+
+ <div class="d-flex gap-3 mb-3">
+   	<div class="product-photo">
+   		<img src="assets/images/jewallary/dm-10.png" alt="">
+   	</div>
+   	<div class="d-flex justify-content-between flex-fill">
+   		<div>
+   			<a href="#" class="d-block">Earring</a>
+   			<span class="d-block">150000 Tk</span>
+   		</div>
+   		<div>
+   			<button type="button"><i class="bi bi-x-circle-fill"></i></button>
+   		</div>
+   	</div>
+   </div>
+
+    <div class="d-flex gap-3 mb-3">
+   	<div class="product-photo">
+   		<img src="assets/images/jewallary/dm-9.png" alt="">
+   	</div>
+   	<div class="d-flex justify-content-between flex-fill">
+   		<div>
+   			<a href="#" class="d-block">Wedding Ring</a>
+   			<span class="d-block">120000 Tk</span>
+   		</div>
+   		<div>
+   			<button type="button"><i class="bi bi-x-circle-fill"></i></button>
+   		</div>
+   	</div>
+   </div>
+<div class="subTotal d-flex justify-content-between">
+	<h5>Subtotal:</h5>
+	<h5>470000 Tk</h5>
+</div>
+
+   <div class="btn-area w-100 text-end mt-4">
+   	<a href="cart.html" class="btn btn-primary rounded-0 mx-2 ">View cart</a>
+   	<a href="checkout.html" class="btn btn-success rounded-0">Checkout</a>
+   </div>
+
+  </div>
+</div>
+	<!-- Shopping Cart Offcanvas End -->
+
+
+
+	<!-- Footer Start -->
+	<footer>
+		<div class="row g-4">
+			<div class="col-lg-3 col-md-4 col-sm-12">
+				<div class="f-title">
+					<h5>Address</h5>
+				</div>
+				<ul type="none">
+					<li>
+						<span><i class="bi bi-geo-alt"></i></span>
+						<span>Chuadanga Sadar, Chuadanga, Bangladesh.</span>
+					</li>
+					<li>
+						<span><i class="bi bi-envelope"></i></span>
+						<span>nahina535@gmail.com</span>
+					</li>
+					
+				</ul>
+				<div class="social-link d-flex gap-2 mt-4">
+					<div class="icon" id="facebook">
+						<a href="#"><i class="bi bi-facebook"></i></a>
+					</div>
+					<div class="icon" id="youtube">
+						<a href="#"><i class="bi bi-youtube"></i></a>
+					</div>
+					<div class="icon" id="instagram">
+						<a href="#"><i class="bi bi-instagram"></i></a>
+					</div>
+					<div class="icon" id="pinterest">
+						<a href="#"><i class="bi bi-pinterest"></i></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-sm-12">
+				<div class="f-title">
+					<h5>Categories</h5>
+				</div>
+				<ul type="none">
+				<li>
+					<a href="#">Ring</a>
+				</li>
+				<li>
+					<a href="#">Crown</a>
+				</li>
+				<li>
+					<a href="#">Bangles</a>
+				</li>
+				<li>
+					<a href="#">Necklace</a>
+				</li>
+				<li>
+					<a href="#">Light Necklace</a>
+				</li>
+				<li>
+					<a href="#">Wedding Ring</a>
+				</li>
+			</ul>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-sm-12">
+				<div class="f-title">
+					<h5>Information</h5>
+				</div>
+				<ul type="none">
+					<li>
+						<a href="#">About us</a>
+					</li>
+					<li>
+						<a href="#">Contact us</a>
+					</li>
+					<li>
+						<a href="#">Terms & Conditions</a>
+					</li>
+					<li>
+						<a href="#">Privacy Policy</a>
+					</li>
+					<li>
+						<a href="#">SignIn</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-sm-12">
+				<div class="f-title">
+					<h5>Payment Way</h5>
+				</div>
+				<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veniam eligendi corporis similique nulla excepturi cum libero facilis officiis, facere!</span>
+				<div class="row g-4 mt-4">
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="logo">
+							<img src="assets/images/payment-way/visa.png" alt="">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="logo">
+							<img src="assets/images/payment-way/mastercard.png" alt="">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="logo">
+							<img src="assets/images/payment-way/bKash.png" alt="">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="logo">
+							<img src="assets/images/payment-way/nogod.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="copyright text-center mt-4">
+				<span>&copy;Developed by Nahina 2024 MyEcommerce | All rights reserved.</span>
+			</div>
+
+
+		</div>
+	</footer>
+	<!-- Footer End -->
+	
+
+
+
+
+	<!-- Bootstrap JS -->
+	<script src="assets/js/bootstrap.bundle.js"></script>
+	<!-- jQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<!-- Slick JS -->
+	<script src="assets/slick/slick.min.js"></script>
+	<!-- Custom JS -->
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
