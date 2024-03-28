@@ -75,7 +75,7 @@ html,body{
 }
 
 .sidebar h6{
-	border-bottom: 1px solid #FFE0CD;
+	border-bottom: 1px solid #D8F3D3;
 	padding-top: 7px;
 	padding-bottom: 7px;
 	margin-bottom: 15px;
@@ -186,7 +186,7 @@ html,body{
 
 }
 .testimonial-area .t-box{
-	border: 1px solid #FEDCA7;
+	border: 1px solid #D8F3D3;
 	padding: 20px 15px;
 	border-radius: 4px;
 	margin-right: 10px;
@@ -211,14 +211,14 @@ html,body{
 }
 .testimonial-area .t-box i{
 	font-size: 40px;
-	color: #FEDCA7;
+	color: #D8F3D3;
 }
 .testimonial-area .t-box .rating i{
 	font-size: 14px;
 	color: green;
 }
 .testimonial-area .t-box hr{
-	border-color: #FEDCA7;
+	border-color: #D8F3D3;
 }
 .testimonial-area .t-box p{
 	text-align: justify;
